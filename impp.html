@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html LANG="en">
+
+<head>
+    <meta charset="UFF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../font-awesome/css/all.css">
+<style>
+    .z-index{
+        position: relative;
+        border: 1px solid black;
+
+    }
+    .z-index-left{
+        height: 100px;
+        width: 80%;
+        border: 1px solid green;
+        background-color: green;
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+    .z-index-right{
+        height: 100px;
+        width: 50%;
+        border: 1px solid orange;
+        background-color:orange;
+        position: absolute;
+        top: 40ppx;
+        right: 0px;
+        z-index: 10;
+    }
+
+</style>
+</head>
+<body>
+    <div class="z-index">
+        <div class="z-index-left"></div>
+        <div class="z-index-right"></div>
+    </div>
+
+    
+</body>
+</html>

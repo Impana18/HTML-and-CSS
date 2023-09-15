@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+    <meta charset="UFF-8"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+<link rel="stylesheet" href="./CSS/dev.css">
+<style>
+    table,tr,td,t,caption{
+        border: 1px solid purple;
+        border-collapse: collapse;
+        padding: 2px;
+        margin-left: 3px;
+    
+}
+</style>
+
+</head>
+
+<body>
+    <header>
+    <h1>hello world</h1>
+    <nav>
+        <ul>
+            <li> 
+                <a href="#html">learn html</a>
+            </li>
+            <li>
+                <a href="#vacation">my name </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="html">
+    <h2>Im ready to learn HTML</h2>
+    <p>This is my first web page</p>
+    <img src="../nature img.jpg" alt="no image found" title="Impana Gowda" width="200" height="200">
+
+    <h3>my daily schedule</h3>
+    <p>let me tell you how :</p>
+    <ol>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;..I learn more about web development</li>
+        <li>..I plan out my schedule</li>
+        <li>..I use resources from <abbr title="mozzilla developer network"> <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr></li>
+</ol>
+    
+    <hr>
+    <h2>Im ready to learn HTMl</h2>
+    <p>This is my first <strong> web pag</strong></p>
+    <figure>
+    <img src="../Image 2.jpg" alt="no iamge found">
+    <figcaption>
+        Beautiful Nature Image
+        <p>
+            <code>
+                &lt;h1 &gt;Hello World! &lt;/h1 &gt;
+            </code>
+        </p>
+    </figcaption>
+    </figure>
+    </section>
+<section id="vacation">
+    <h3>my daily schedule</h3>
+    <p>let me tell you how i.....</p>
+    <address>Halagr,halandur(p) <br>
+        Srinegri(T) <br>
+        Chikmagalore
+</address>
+<details>
+    <summary>
+        Guess the number of <mark>hours</mark> i code everyday
+    </summary>
+    <p>I code  <time>3</time>hours per day</p>
+</details>
+<table>
+    <tr>
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <td>
+            
+            <time datetime="8:00">8 AM</time>
+            <time datetime="11:00">11 AM</time>  
+        </td>
+        <td>Write code</td>
+    </tr>
+    <tr>
+        <td>
+            <time datetime="11:00">11 AM</time>
+            <time datetime="12:00">12 pm</time>  
+        </td>
+        <td>Eat lunch</td>
+    </tr>
+    <tr>
+        <td>
+            <time datetime="12:00">12 PM</time>
+            <time datetime="17:00">5 PM</time>  
+        </td>
+        <td>study for other courses</td>
+    </tr>
+    <tr>
+        <td rowspan="2">All other times</td>
+        <td>Free time</td>
+    </tr>
+    <tr>
+        <td>Sleep</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <td colspan="2"> And thats what i do for evryday.. eat ,sleep,code </td>
+        </tr>
+    </tfoot>
+</table>
+<figure>
+<img src="../rbt.jpg" alt="no iamhe found" title="It is a 5 o clk somewhere" width="500px" height="677px" loading="lazy">
+<figcaption>
+    Beautiful rabbit image
+</figcaption>
+</figure>
+        <h3>places i want avoid</h3>
+            <dl>
+                <dt>north pole</dt>
+                <dd>I hear this is <strong>Cold</strong>!</dd>
+
+                <dt>south pole</dt>
+                <dd>I hear this is also cold</dd>
+            </dl>
+            <h2>
+                Contact me!!
+            </h2>
+            <p>I would really happy from you</p>
+            <p>
+                <fieldset>
+                    <legend>personal INfo:</legend>
+            <form action="https..//https.org.get">
+                <label for="Firstname">FirstName:</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Bunny" autocomplete="on" required autofocus>
+            </p>
+              <p>
+                <label for="lastName">lastName:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="doe" autocomplete="on">
+                </p>
+
+                <p>
+                    <label for="password">password:</label>
+                    <input type="password" name="password" id="password" placeholder="your secret">
+                    </p>
+
+                    <p>
+                        <label for="phoneNumber">phoneNumber:</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="0123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+
+                        <p>
+                            <label for="Decade"> FavDecade:</label>
+                            <input type="number" name="decade" id="decade" min="1980" max="2020" step="1" value="1980"> 
+        
+                            </p>
+
+                            <p>
+                                <label for="cfe"> Fav:</label>
+                            <select name="coffe" id="coffe">
+                                <option value="dalgona cfe">dalgona cfe</option>
+                                <option value="Filter cfe">Filter cfe</option>
+                            </select>
+                        </p>
+                        <br>
+                        <fieldset>
+                            <legend> what is your fav food</legend>
+                            <p>
+                                <input type="radio" name="food" id="food" value="tacos">
+                                <label for="tacos"> Tacos</label>
+
+                            </p>
+                            <p>
+                                <input type="radio" name="food" id="food" value="pizza">
+                                <label for="tacos"> pizza</label>
+
+                            </p>
+                            <p>
+                                <input type="radio" name="food" id="food" value="other">
+                                <label for="tacos"> other</label>
+
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>DO you have pets?</legend>
+                            <p>
+                                <input type="checkbox" name="pets" id="dog" value="dog">
+                                <label for="dog"> DOg</label>
+    
+                            </p>
+                            <p>
+                                <input type="checkbox" name="pets" id="cat" value="cat">
+                                <label for="cat"> cat</label>
+    
+                            </p>
+                            <p>
+                                <input type="checkbox" name="pets" id="fish" value="fish">
+                                <label for="Fish"> Fish</label>
+    
+                            </p>
+                        </fieldset>
+                        </fieldset>
+           </form>
+</section>
+    </main>
+<footer>
+   <p> &lt; &lt; &lt; &copy; <a href="about.html">Impana </a>&gt;&gt;&gt;</p>
+
+</footer>
+
+
+
+    
+</body>
+</html>
