@@ -1,0 +1,252 @@
+/*{
+    color:blue;
+    
+}
+
+
+
+.class1{
+    background-color: black;
+    color: brown;
+}
+body{
+    height:100vh;
+    background-image: url("../../cat\ img.jpg");
+    background-repeat: no-repeat;
+    background-position: 100px 200px ;
+    background-attachment: fixed;
+    background: url("../../cat\ img.jpg") no-repeat center center fixed;
+}
+.applaymargin{
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.applyborder{
+    border:5px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    outline:5px solid firebrick;
+    margin: 30px;
+}
+
+.appalywidthheight{
+    width: 50%;
+    height:300px;
+}
+h2.csstext{
+    text-align: center;
+    font-size: medium;
+}
+
+h2.textdecoration{
+text-decoration: underline red 5px;
+text-transform: lowercase;
+letter-spacing: 3px;
+word-spacing: 2px;
+line-height: 140px;
+}
+
+.background{
+    background-image:url("../../rbt.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: blue;
+
+}
+
+.info{
+    margin: 100px 200px;
+    border: 2px solid black;
+    height: 400px;
+    width: 1000px;
+    padding: 100px;
+}
+.cls{
+    margin: 2px 2px;
+    border: 3px solid red;
+    height: 25px;
+    width:150px;
+    padding: 2px;
+    text-align: center;
+
+}
+.one{
+    display: none;
+}
+.one :target{
+    display: block;
+}
+
+.in{
+    background-image: url("../../book.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.on{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+h1{
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px solid;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: white;
+}*/
+
+/*p{
+    text-align: center;
+    background-color:green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    border-radius: 20px 35px;
+}
+p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}*/
+
+/*#lapimg{
+
+    background-image: url("../../book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+.coffecup{
+width: 50%;
+margin: auto;
+text-align: center;
+padding: 100px 0 0 0 ;
+}
+
+p{
+    margin-top: 25px 0px;
+    background: white;
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    border: black;
+    padding: 10px;
+}
+
+.cfebtn{
+    text-align: center;
+    background-color: gray;
+    border-color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 15px;
+    border-radius: 25px;
+}
+*/
+/*
+p{
+    font-size: 50px;
+    font-style: italic;
+    font-family: fantasy;
+    font-weight: 100;
+
+}
+table,td,th{
+    border:1px solid black;
+}
+.cssoverflow{
+    height: 50px;
+    border: 2px solid pink;
+    padding: 5px;
+    margin: 5px;
+    overflow: scroll;
+}
+
+/*p {
+    font-size: 50px;
+    font-style: italic;
+    font-family: fantasy;
+    font-weight: 100;
+    display: inline;
+}*/
+/*
+span.inline-tag {
+    display: block;
+}
+
+.inlineblock{
+    display: inline-block;
+    margin:10px
+}
+
+.hoverbtn{
+    border: 1px solid pink;
+    margin: 5px;
+    padding:5px;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+}
+.hoverbtn:hover{
+    background-color: aqua;
+    color:chartreuse;
+}
+a{
+    font-size: 25px;
+}
+a:link{
+    color:aqua
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+
+    color:chartreuse
+}
+a:active{
+    color:coral
+}
+
+input[type="number"]{
+    border: 3px dotted purple;
+}
+
+.firstchild p:first-child{
+    color:green;
+    font-weight: 300;
+
+}
+.firstchild p:last-child{
+    color: blueviolet;
+    font-weight: 100;
+}
+.firstchild :nth-child(4){
+    color: brown;
+    font-weight: bolder;
+}*/
